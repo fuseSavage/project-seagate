@@ -16,8 +16,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import logo from '../../assets/logo/seagate-logo2.jpg'
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Main from '../pages/Main';
+import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Flow from '../pages/Flow';
 import FlowChengai from '../pages/FlowChengai';
